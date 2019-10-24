@@ -1,0 +1,7 @@
+Zadanie 1.1 - Napisz program, który wyświetli informacje o Twojej osobie ( nazwisko, wiek) Wszystkie informacje powinny być w jednym wierszu po przecinku.
+Zadanie 1.2 - Napisz program, który wyświetli informację o Twojej osobie ( nazwisko, wiek) Każda informacja powinna być w nowym wierszu.
+Zadanie 1.6 - Zadeklaruj zmienną typu int o nazwie aktualnyRok, przypisz jej obecny rok, a następnie ją wyświetl dodając dodatkowy opis, jak w przykładach na poprzednim slajdzie.
+Zadanie 1.7 - Zmień poprzedni program tak aby wyświetlany opis umieścić w zmiennej typu String.
+Zadanie 1.8 – Zadeklaruj 3 zmienne typu int (bokA ,bokB ,bokC), które będą długościami boków w trójkącie. Nadaj im przykładowe, wartości a następnie oblicz obwód trójkąta i go wyświetl.
+Zadanie 1.9 – Napisz program, który obliczy pole koła na podstawie zadeklarowanego promienia, a następnie je wyświetli. Należy pamiętać aby użyć zmiennej typu double.
+Zadanie 1.10 – Napisz program, który przeliczy kwotę zdefiniowaną w PLN na wartości EUR. W tym celu zadeklaruj zmienną przechowującą wartości w złotówkach, zdeklaruj przelicznik (sprawdź aktualny w Internecie), oraz zdeklaruj zmienną, która będzie przechowywała wynik obliczeń w walucie euro.
