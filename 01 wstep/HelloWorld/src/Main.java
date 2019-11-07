@@ -39,5 +39,15 @@ public class Main {
         System.out.println("------");
         System.out.println("A \tB \tC \tD"); // \t oznacza tabulator
 
+        // pierwszy sposób komentowania - jeden wiersz
+        /*
+        Komentowanie wielu wierszy bez wyróżnienia
+        wiersz 2
+         */
+        /**
+         * komentowanie wielu wierszy jako dokumentacja JAVA
+         * wiersz 2
+         */
+
     }
 }
