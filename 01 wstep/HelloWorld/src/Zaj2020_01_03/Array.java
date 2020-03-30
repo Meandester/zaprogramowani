@@ -26,8 +26,16 @@ public class Array {
         }
         //Tablica wielowymiarowa
         {
-            int[][] multiArr = new int[5][];
+            int[][] multiArr = new int[4][];
+            multiArr[0] = new int[4];
+            multiArr[1] = new int[3];
+            multiArr[2] = new int[2];
+            multiArr[3] = new int[1];
 
+            multiArr[0][0] = 41;
+            multiArr[0][1] = 42;
+            multiArr[0][2] = 43;
+            multiArr[0][3] = 44;
         }
     }
 }
