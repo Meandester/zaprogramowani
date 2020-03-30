@@ -22,22 +22,23 @@ public class Main {
         System.out.println("Hello World!");
 
         //różne metody wyświetlania tekstu w konsoli / terminalu
-
+        System.out.println("------");
         System.out.print("A");
         System.out.print("B");
         System.out.print("C");
-        System.out.print("D\n");
+        System.out.print("D\n"); // \n oznacza enter
         System.out.println("------");
         System.out.println("ABCD");
         System.out.println("------");
-        System.out.println("A");
-        System.out.println("B");
-        System.out.println("C");
-        System.out.println("D");
-        System.out.println("------");
-        System.out.println("A \nB \nC \nD"); // \n oznacza enter
-        System.out.println("------");
         System.out.println("A \tB \tC \tD"); // \t oznacza tabulator
+//        System.out.println("A");
+//        System.out.println("B");
+//        System.out.println("C");
+//        System.out.println("D");
+//        System.out.println("------");
+//        System.out.println("A \nB \nC \nD"); // \n oznacza enter
+//        System.out.println("------");
+//        System.out.println("A \tB \tC \tD"); // \t oznacza tabulator
 
         // pierwszy sposób komentowania - jeden wiersz
         /*
