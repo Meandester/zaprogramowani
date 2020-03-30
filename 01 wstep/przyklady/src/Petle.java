@@ -48,21 +48,24 @@ public class Petle {
             System.out.println("Liczba nieparzysta: " + liczba);
         }
 
+        System.out.println("Pętla for");
+
+        /*
+        for(wyrażenie początkowe ; warunek ; modyfikator_licznika){
+            instrukcje do wykonania
+        }
+        */
+
+        System.out.println("Pętla for (wyświetlenie imienia i nazwiska 5 razy)");
+        for (int i = 1; i <=5 ; i++) {
+            System.out.println("Filip Kowalski");
+        }
+
         System.out.println("Pętla For (wylistowanie elementów tablicy)");
 
         int zbiorLiczby[] = {3,4,67,5};
 
-        System.out.println("Długość tablicy wynosi: " + zbiorLiczby.length);
-        System.out.println("Elementy tablicy to: " + Arrays.toString(zbiorLiczby));
-        for (int i = 0; i < zbiorLiczby.length ; i++) {
-            System.out.println("Wydruk liczby z indeksu " + i + " wynosi " + zbiorLiczby[i]);
-        }
-
-        System.out.println("Pętla for (odliczanie do 5)");
-        for (int i = 1; i <=5 ; i++) {
-            System.out.println("Odliczanie: " + i);
-            TimeUnit.SECONDS.sleep(1);
-        }
+        System.out.println("Pętla for each (działanie na kolekcjach), w naszym przypadku na tablicy");
 
         System.out.println("Pętla for dla każdego elementu zbioru");
         for (int a: zbiorLiczby) {
@@ -74,6 +77,12 @@ public class Petle {
         for (int a: zbiorLiczby){
             zbiorLiczbySuma = zbiorLiczbySuma + a;
             System.out.println("Suma narastająco: " + zbiorLiczbySuma);
+        }
+
+        System.out.println("Długość tablicy wynosi: " + zbiorLiczby.length);
+        System.out.println("Elementy tablicy to: " + Arrays.toString(zbiorLiczby));
+        for (int i = 0; i < zbiorLiczby.length ; i++) {
+            System.out.println("Wydruk liczby z indeksu " + i + " wynosi " + zbiorLiczby[i]);
         }
     }
 }
